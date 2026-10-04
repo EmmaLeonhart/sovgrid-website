@@ -21,6 +21,12 @@ website of it."
 Founders, as Emma typed them (2026-10-04): "Arkhos Winter and Emma Leonhart".
 Both are named on the site as co-founders; no roles or titles given yet.
 
+Ownership and contact, in Emma's words: "sovgrid.ca is a partially owned
+subsidiary of topazcomputing.com and my email is emma@topazcomputing.com".
+The site footer says "a subsidiary of Topaz Computing" and the Contact
+section uses that email. Assumption: giving the email in answer to "is there an
+email to put on the site?" means she wants it published.
+
 ## What supports it
 
 - Chat, 2026-10-04 (sessions/2026-10-04_c9fb0e97.md).
@@ -48,8 +54,6 @@ Both are named on the site as co-founders; no roles or titles given yet.
 
 ## Open questions
 
-- Contact address for the site (e.g. an email at sovgrid.ca). NEEDS-DECISION
-  (Emma). No email is set up on the domain yet as far as known.
 - What the site should do beyond a landing page (pitch to data-centre
   operators? investors?). Asked, not yet answered. Assumption for now: a
   clear one-page landing site describing the company's purpose, with no

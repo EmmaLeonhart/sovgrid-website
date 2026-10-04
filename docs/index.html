@@ -65,6 +65,8 @@
   .num { display: inline-block; font-weight: 700; color: var(--accent); margin-bottom: 10px; }
 
   footer { background: var(--deep); color: #9fb2a9; font-size: 15px; }
+  a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  footer a:hover, .intro a:hover { color: var(--accent); }
   footer .wrap { padding-top: 28px; padding-bottom: 28px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
 </style>
 </head>
@@ -145,12 +147,19 @@
       </div>
     </div>
   </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p class="intro">To talk about powering a data centre, or anything else, email <a href="mailto:emma@topazcomputing.com">emma@topazcomputing.com</a>.</p>
+    </div>
+  </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <span>&copy; 2026 SovGrid</span>
-    <span>sovgrid.ca</span>
+    <span>&copy; 2026 SovGrid, a subsidiary of <a href="https://topazcomputing.com">Topaz Computing</a></span>
+    <a href="mailto:emma@topazcomputing.com">emma@topazcomputing.com</a>
   </div>
 </footer>
 
