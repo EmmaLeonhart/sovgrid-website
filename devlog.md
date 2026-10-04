@@ -9,3 +9,4 @@
 - 12:23 PST: added a Founders section to the site (Arkhos Winter, Emma Leonhart, both "Co-founder"), with the spelling Emma confirmed.
 - 12:27 PST: added a Contact section (emma@topazcomputing.com) and a footer line "a subsidiary of Topaz Computing", linking to topazcomputing.com.
 - 12:42 PST: DNS is propagating. Google DNS answers sovgrid.ca with the four GitHub IPs on some queries and NXDOMAIN on others; www.sovgrid.ca resolves and 301s to sovgrid.ca. GitHub has not issued the HTTPS certificate yet ("The certificate does not exist yet"), so HTTPS can't be enforced. Domain is still "unverified" with GitHub (needs Emma's TXT record).
+- 13:12 PST: Google DNS now answers sovgrid.ca with all four GitHub IPs consistently (this machine's Telus resolver still has the earlier NXDOMAIN cached). GitHub still has no HTTPS certificate; re-saved the custom domain to prompt a new check, and requested the Pages health check (runs async).
