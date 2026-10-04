@@ -18,6 +18,9 @@ The site is hosted on GitHub Pages at the domain `sovgrid.ca`, which she bought
 on 2026-10-04 at Namecheap. "We're going to be using GitHub pages. This is the
 website of it."
 
+Founders, as Emma typed them (2026-10-04): "Arkhos Winter and Emma Leonhart".
+Both are named on the site as co-founders; no roles or titles given yet.
+
 ## What supports it
 
 - Chat, 2026-10-04 (sessions/2026-10-04_c9fb0e97.md).
@@ -45,9 +48,6 @@ website of it."
 
 ## Open questions
 
-- Co-founder's name: dictated as "Arcos Winter". Spelling unconfirmed, so it is
-  NOT on the public site yet. NEEDS-DECISION (Emma): exact spelling, and whether
-  founders are named on the site.
 - Contact address for the site (e.g. an email at sovgrid.ca). NEEDS-DECISION
   (Emma). No email is set up on the domain yet as far as known.
 - What the site should do beyond a landing page (pitch to data-centre
