@@ -1,3 +1,3 @@
 # Queue
 
-- Once DNS resolves and GitHub has issued the certificate, turn on Enforce HTTPS via `gh api -X PUT repos/EmmaLeonhart/sovgrid-website/pages -F https_enforced=true`, then load https://sovgrid.ca and https://www.sovgrid.ca to confirm.
+- Turn on Enforce HTTPS once GitHub has issued the certificate: `gh api -X PUT repos/EmmaLeonhart/sovgrid-website/pages -F https_enforced=true`, then load https://sovgrid.ca and https://www.sovgrid.ca to confirm. BLOCKED-ON-EXTERNAL: GitHub certificate provisioning, not issued as of 14:02 PST (DNS has been correct since about 13:12). Unblock signal: `gh api repos/EmmaLeonhart/sovgrid-website/pages --jq .https_certificate` is non-null. If it is still null after a few more hours: BLOCKED-ON-USER-ACTION. Emma removes the custom domain under the repo's Settings → Pages and adds it back to restart provisioning (the agent's attempt to do this was denied by the permission check).
