@@ -211,6 +211,15 @@ current by the `cleanvibe-update-check` skill.
 - **Last cleanvibe update check:** `2026-10-04`
 - **Updates source:** <https://cleanvibe.emmaleonhart.com/updates.md>
 
+## This project: the sovgrid.ca website
+- Public repo `EmmaLeonhart/sovgrid-website` (public by the user's choice,
+  transcripts included; see INTENT.md).
+- GitHub Pages serves `docs/` from `main`. Custom domain `sovgrid.ca` is set
+  in `docs/CNAME` and in the Pages settings. Plain HTML/CSS, no build step.
+- DNS is at Namecheap (BasicDNS); records are listed in README.md.
+- Site content states only what the user has confirmed: no invented figures,
+  clients, team members or contact details.
+
 ## Long command series run in strict order
 When the user gives a long series of commands, treat it as a long series of commands to be
 executed in relatively STRICT ORDER, one after another, EVEN IF the order seems not to make
